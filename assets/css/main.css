@@ -878,6 +878,8 @@ background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 }
 .work--lockup .slider--item-image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .work--lockup .slider--item-left {
@@ -1109,21 +1111,22 @@ background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
   position: relative;
   width: 150px;
   height: 75px;
+  margin-bottom: 50px;
   text-decoration: none;
   color: #fff;
-  border: 10px solid #0f33ff;
+  border: 2px solid #0f33ff;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .about--options > a:nth-child(1) {
-  background-image: url("../img/about-winners.jpg");
+  background-image: url("../img/hard\ work.jpg");
 }
 .about--options > a:nth-child(2) {
-  background-image: url("../img/about-philosophy.jpg");
+  background-image: url("../img/integritas.jpg");
 }
 .about--options > a:nth-child(3) {
-  background-image: url("../img/about-history.jpg");
+  background-image: url("../img/profesional.jpg");
 }
 .about--options > a:hover h3 {
   bottom: -50px;
@@ -1150,8 +1153,8 @@ background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
     left: 260px;
   }
   .about--banner h2 {
-    margin-top: 10px;
-    font-size: 44px;
+    margin-top: 20px;
+    font-size: 20px;
   }
   .about--banner h2::before {
     top: 28px;
